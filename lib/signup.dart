@@ -91,7 +91,9 @@ Center(
 
 
             Center(
+
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children:  [
                   Text('Already have an account?',style:TextStyle(color:Colors.black,)),
                   TextButton(onPressed: (){

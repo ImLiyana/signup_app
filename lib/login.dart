@@ -15,7 +15,7 @@ class _LoginState extends State<Login> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Center(child: Text('Sign up',style:TextStyle(color:Colors.black,fontSize: 30,fontWeight:FontWeight.bold),)),
+          Center(child: Text('Login',style:TextStyle(color:Colors.black,fontSize: 30,fontWeight:FontWeight.bold),)),
           SizedBox(height: 10,),
           Center(child: Text('create an account,its free',style:TextStyle(color:Colors.black45,fontSize:10) ,)),
           SizedBox(height: 30,),
