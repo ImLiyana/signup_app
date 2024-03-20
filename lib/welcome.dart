@@ -32,6 +32,8 @@ backgroundColor:Colors.white ,
               height: 300,
               width: 300,
               color: Colors.black45,
+             child: Image.network('https://media.licdn.com/dms/image/D4E12AQE2MDhER2rYow/article-cover_image-shrink_720_1280/0/1675356177052?e=2147483647&v=beta&t=GOo32vhQVLtrFCLs51A1AB7bFyVVPLhKs8dKTqOXckg',
+             width:300,height: 300 ,),
             ),
             SizedBox(height: 10,),
 
