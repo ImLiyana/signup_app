@@ -110,7 +110,8 @@ class _SignState extends State<Sign> {
                       style: TextStyle(
                         color: Colors.black,
                       )),
-                  TextButton(
+                  ElevatedButton(
+                      style: ElevatedButton.styleFrom(foregroundColor: Colors.white,backgroundColor: Colors.blueAccent),
                       onPressed: () {
                         Navigator.push(
                           context,
